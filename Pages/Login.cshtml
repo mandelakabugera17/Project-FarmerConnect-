@@ -2,3 +2,67 @@
 @model FarmerConnect.Pages.LoginModel
 @{
 }
+
+<link rel="stylesheet" href="~/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+<div class="container">
+
+    @if (Model.message.Length > 1)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Hello!</strong> @Model.message
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <style>
+        .icon {
+            color: white;
+            margin-top: 4px;
+            margin-left: 6px;
+        }
+
+        form label {
+            color: #fff;
+        }
+
+        form h2 {
+            color: #fff;
+        }
+
+        form {
+            margin-left: 27%;
+            margin-top: 80px;
+        }
+
+        .btnlg {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            margin-left: 20px;
+            display: flex;
+        }
+
+    </style>
+    <div class="btnlg">
+        <button type="button" onclick="location.href='@Url.Page("/Index")'" class="btn btn-outline-success">Home</button>
+    </div>
+    <form method="post">
+        <h2>Login<ion-icon name="log-in-outline"></ion-icon></h2>
+        <div class="form-group email">
+            <label for="email">Email Address<ion-icon class="icon" name="mail-outline"></ion-icon></label>
+            <input type="text" id="email" placeholder="Enter your email address" name="email">
+        </div>
+        <div class="form-group password">
+            <label for="password">Password<ion-icon class="icon" name="finger-print-outline"></ion-icon></label>
+            <input type="password" id="password" placeholder="Enter your password" name="password">
+            <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+        </div>
+        <div>
+            <a href="/Signup" class="info" style="color: #38b000;">I don't have an account</a>
+        </div>
+        <div class="form-group submit-btn">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>
