@@ -1,0 +1,132 @@
+﻿@page
+@model FarmerConnect.Pages.AgribusinessModel
+@{
+}
+@if (Model.message.Length > 1)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Hello!</strong> @Model.message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vh;
+        max-width: 100vh;
+        margin: 0;
+        background-color: #2b9348;
+        overflow: hidden;
+    }
+
+    h1 {
+        color: white;
+        font-family: "Space Mono", monospace;
+        font-size: 12vw;
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .top-links {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-right: 20px;
+        display: flex;
+        font-size: 30px;
+    }
+
+    .divider {
+        color: white;
+        margin: 0 10px;
+    }
+
+    .intro {
+        font-family: "Source Code Pro", monospace;
+        font-size: 4vw;
+    }
+
+    .white-text {
+        color: white;
+    }
+
+    .green-text {
+        color: black;
+    }
+
+    a {
+        color: white;
+        font-family: "Source Code Pro", monospace;
+    }
+    .icon{
+        color: white;
+        margin-top: 7px;
+        margin-right: 500px;
+    }
+
+    .logo {
+        width: 248px;
+        height: 190px;
+        margin-right: 10px;
+    }
+
+    .btnlg {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        margin-left: 20px;
+        display: flex;
+    }
+</style>
+<div class="content1">
+    <div class="btnlg">
+        <button type="button" onclick="location.href='@Url.Page("/Login")'" class="btn btn-outline-light">LogOut</button>
+    </div>
+    <div class="top-links">
+        <ion-icon class="icon" name="home-outline"></ion-icon>
+        <a asp-area="" asp-page="/Services">Services</a>
+        <span class="divider">/</span>
+        <a asp-area="" asp-page="/Resources">Resources</a>
+        <span class="divider">/</span>
+        <a asp-area="" asp-page="/KnowledgeSharing">KnowledgeSharing</a>
+        <span class="divider">/</span>
+        <a asp-area="" asp-page="/Report">Report</a>
+    </div>
+    <div class="text-center">
+        <img src="~/image/farmer.png" class="logo">
+    </div>
+    <h1 data-value="WELCOME">WELCOME</h1>
+    <p class="intro"><span class="white-text">AgriBusiness</span> <span class="green-text">@HttpContext.Session.GetInt32("UserId")</span></p>
+</div>
+<script>
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.querySelector("h1").onmouseover = event => {
+        let i = 0;
+
+        const interval = setInterval(() => {
+            event.target.innerText = event.target.innerText.split("")
+                .map((letter, index) => {
+                    if (index < i) {
+                        return event.target.dataset.value[index];
+                    }
+                    return alphabet[Math.floor(Math.random() * 26)]
+                })
+                .join("");
+            if (i >= event.target.dataset.value.length) {
+                clearInterval(interval);
+            }
+            i += 1 / 4;
+        }, 30);
+
+    }
+</script>

@@ -1,0 +1,31 @@
+﻿@page
+@model FarmerConnect.Pages.RSpageModel
+@{
+}
+@if (Model.message.Length > 1)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Hello!</strong> @Model.message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<h1>Transaction Page</h1>
+
+<form method="post" asp-page-handler="OnPost">
+    <div>
+        <label for="resourceId">Resource ID:</label>
+        <input type="text" id="resource_id" name="resource_id" readonly value="@ViewData["resources_id"]">
+    </div>
+
+    <div>
+        <label for="serviceId">Service ID:</label>
+        <input type="text" id="serviceId" name="serviceId" readonly value="@ViewData["ServiceId"]">
+    </div>
+
+    <div>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" value="@ViewData["Price"]" required>
+    </div>
+
+    <button type="submit">Submit Transaction</button>
+</form>

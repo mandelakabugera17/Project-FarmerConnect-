@@ -1,0 +1,36 @@
+﻿@page
+@model FarmerConnect.Pages.FarmersInfoModel
+@{
+}
+<div class="container">
+
+    @if (Model.message.Length > 1)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Hello!</strong> @Model.message
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <form method="post">
+        <div class="row g-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter User ID" aria-label="ID" name="user_id">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter Farm Size" aria-label="Farm Size" name="size">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter Location" aria-label="Location" name="location">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter Crop Grown" aria-label="Crop Grown" name="crop">
+            </div>
+        </div>
+        <br />
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
+
+</div>

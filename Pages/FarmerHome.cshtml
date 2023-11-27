@@ -1,0 +1,129 @@
+﻿@page
+@model FarmerConnect.Pages.FarmerHomeModel
+@{
+}
+@if (Model.message.Length > 1)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Hello!</strong> @Model.message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vh;
+        max-width: 100vh;
+        margin: 0;
+        background-color: #2b9348;
+        overflow: hidden;
+    }
+
+    h1 {
+        color: white;
+        font-family: "Space Mono", monospace;
+        font-size: 12vw;
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .top-links {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-right: 20px;
+        display: flex;
+        font-size: 30px;
+    }
+
+    .divider {
+        color: white;
+        margin: 0 10px;
+    }
+
+    .intro {
+        font-family: "Source Code Pro", monospace;
+        font-size: 4vw;
+    }
+
+    .white-text {
+        color: white;
+    }
+
+    .green-text {
+        color: black;
+    }
+
+    a {
+        color: white;
+        font-family: "Source Code Pro", monospace;
+    }
+
+    .logo {
+        width: 380px;
+        height: 190px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .btnlg{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        margin-left: 20px;
+        display: flex;
+    }
+</style>
+<div class="content1">
+    <div class="btnlg">
+        <button type="button" onclick="location.href='@Url.Page("/Login")'" class="btn btn-outline-light">LogOut</button>
+    </div>
+    
+    <div class="top-links">
+        
+        <a asp-area="" asp-page="/Purchases">Purchases</a>
+        <span class="divider">/</span>
+        <a asp-area="" asp-page="/PurchasingView">PurchasingView</a>
+        <span class="divider">/</span>
+        <a asp-area="" asp-page="/KnowledgeSharing">KnowledgeSharing</a>
+        
+    </div>
+    <div class="text-center">
+        <img src="~/image/farmer man.png" class="logo">
+    </div>
+    <h1 data-value="WELCOME">WELCOME</h1>
+    <p class="intro">
+        <span class="white-text">Farmer</span><span class="green-text">@HttpContext.Session.GetInt32("UserId")</span>
+
+</div>
+<script>
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.querySelector("h1").onmouseover = event => {
+        let i = 0;
+
+        const interval = setInterval(() => {
+            event.target.innerText = event.target.innerText.split("")
+                .map((letter, index) => {
+                    if (index < i) {
+                        return event.target.dataset.value[index];
+                    }
+                    return alphabet[Math.floor(Math.random() * 26)]
+                })
+                .join("");
+            if (i >= event.target.dataset.value.length) {
+                clearInterval(interval);
+            }
+            i += 1 / 4;
+        }, 30);
+
+    }
+</script>

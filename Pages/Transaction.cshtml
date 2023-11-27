@@ -1,0 +1,104 @@
+﻿@page
+@model FarmerConnect.Pages.TransactionModel
+@{
+}
+<link rel="stylesheet" href="~/css/style.css">
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+@if (Model.message.Length > 1)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Hello!</strong> @Model.message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<style>
+    .icon {
+        color: white;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+
+    form label {
+        color: #fff;
+    }
+
+    form h2 {
+        color: #fff;
+    }
+
+    form {
+        margin-left: 27%;
+        margin-top: 18px;
+    }
+
+</style>
+
+<form method="post" asp-page-handler="OnPost">
+    <h2>Transaction<ion-icon class="icon" name="reader-outline"></ion-icon></h2>
+    <div>
+        <label for="buyerId">Buyer ID: <ion-icon name="person-outline"></ion-icon></label>
+        <input type="text" id="buyerId" name="buyerId" readonly value="@HttpContext.Session.GetInt32("UserId")">
+    </div>
+
+    <div>
+        <label for="sellerId">Seller ID: <ion-icon name="person-outline"></ion-icon></label>
+        <input type="text" id="sellerId" name="sellerId" readonly value="@ViewData["SellerId"]">
+    </div>
+
+    <div>
+        <label for="resourceId">Resource ID: <ion-icon name="construct-outline"></ion-icon></label>
+        <input type="text" id="resourceId" name="resourceId" readonly value="@ViewData["resources_id"]">
+    </div>
+
+    <div>
+        <label for="serviceId">Service ID: <ion-icon name="walk-outline"></ion-icon></label>
+        <input type="text" id="serviceId" name="serviceId" readonly value="@ViewData["ServiceId"]">
+    </div>
+
+    <div>
+        <label for="quantity">Quantity: <ion-icon name="scale-outline"></ion-icon></label>
+        @if (Model.ViewData["ServiceId"] != null)
+        {
+            <input type="number" id="quantity" name="quantity" readonly>
+        }
+        else
+        {
+            <input type="number" id="quantity" name="quantity" required>
+        }
+    </div>
+
+    <div>
+        <label for="totalAmount">Total Amount: <ion-icon name="cash-outline"></ion-icon></label>
+        @if (Model.ViewData["ServiceId"] != null)
+        {
+            <input type="text" id="totalAmount" name="totalAmount" readonly value="@Model.ViewData["Price"]">
+        }
+        else
+        {
+            <input type="text" id="totalAmount" name="totalAmount" readonly>
+        }
+    </div>
+    <br />
+    <button class="btn btn-primary" type="submit">Submit Transaction</button>
+    <script>
+        var quantityInput = document.getElementById('quantity');
+        var totalAmountInput = document.getElementById('totalAmount');
+        var price = parseFloat('@Model.ViewData["Price"]');
+
+        quantityInput.addEventListener('input', function () {
+            var quantity = parseFloat(quantityInput.value);
+
+            if (!isNaN(quantity) && quantity > 0) {
+                if (quantity <= @Model.ViewData["Quantity"]) {
+                    var totalAmount = quantity * price;
+                    totalAmountInput.value = totalAmount.toFixed(2);
+                } else {
+                    totalAmountInput.value = 'Not enough in stock';
+                }
+            } else {
+                totalAmountInput.value = 'Only numbers please';
+            }
+        });
+    </script>
+</form>

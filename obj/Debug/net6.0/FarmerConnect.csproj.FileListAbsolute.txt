@@ -1,0 +1,76 @@
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\appsettings.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.staticwebassets.runtime.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.exe
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.deps.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.runtimeconfig.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.pdb
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.AssemblyInfo.cs
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.FarmerConnect.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.build.FarmerConnect.props
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FarmerConnect.props
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FarmerConnect.props
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\scopedcss\bundle\FarmerConnect.styles.css
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\scopedcss\projectbundle\FarmerConnect.bundle.scp.css
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\refint\FarmerConnect.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.pdb
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.genruntimeconfig.cache
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\ref\FarmerConnect.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.csproj.CopyComplete
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\appsettings.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.staticwebassets.runtime.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.exe
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.deps.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.runtimeconfig.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\FarmerConnect.pdb
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.csproj.AssemblyReference.cache
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.AssemblyInfoInputs.cache
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.AssemblyInfo.cs
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.csproj.CoreCompileInputs.cache
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.RazorAssemblyInfo.cache
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.RazorAssemblyInfo.cs
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.FarmerConnect.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.build.FarmerConnect.props
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FarmerConnect.props
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FarmerConnect.props
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\scopedcss\bundle\FarmerConnect.styles.css
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\scopedcss\projectbundle\FarmerConnect.bundle.scp.css
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.csproj.CopyComplete
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\refint\FarmerConnect.dll
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.pdb
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\FarmerConnect.genruntimeconfig.cache
+C:\Users\alexk\Pictures\images\Session I\c#\FarmerConnect\FarmerConnect\FarmerConnect\obj\Debug\net6.0\ref\FarmerConnect.dll

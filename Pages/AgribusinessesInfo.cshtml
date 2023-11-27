@@ -1,0 +1,39 @@
+﻿@page
+@model FarmerConnect.Pages.AgribusinessesInfoModel
+@{
+}
+<div class="container">
+
+    @if (Model.message.Length > 1)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Hello!</strong> @Model.message
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <form method="post">
+        <div class="row g-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter User ID" aria-label="ID" name="user_id">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter Bussiness Name" aria-label="Bussiness Name" name="bussiness">
+            </div>
+            <div class="col">   
+                <input type="text" class="form-control" placeholder="Enter Location" aria-label="Location" name="location">
+            </div>
+            <select class="form-select" aria-label="Select Service Offered" name="service">
+                <option selected>Open this select menu</option>
+                <option value="Fertilization">Fertilization</option>
+                <option value="Irrigation Services">Irrigation Services</option>
+                <option value="Agricultural Equipment Rental">Agricultural Equipment Rental</option>
+            </select>
+        </div>
+        <br />
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
+
+</div>
